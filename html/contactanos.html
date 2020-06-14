@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link rel="stylesheet" type="text/css" href="../css/contactanos.css"/>
+        <title>Contactanos</title>
+    </head>
+    <body>
+            
+        <div id="googleMap" style="width:50%;height:400px;"></div>
+        
+        <script>
+        function myMap() {
+        var mapProp= {
+        center:new google.maps.LatLng(42.5000000,1.6000000),
+        zoom:5,
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+</script>
+        
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+        
+        <div id="contacto">Telefono de contacto 666 777 888</div>
+        <div id="contacto2">Correo electrónico contactanos@gmail.com</div>
+        <footer >
+            <div class="footer1">
+                <h2 class="h2">Agradecimientos</h2>
+                <li >Youtube</li>
+                <li >W3school</li>
+            </div>
+            <div class="footer2">
+                <h2 class="h2">Hecho por</h2>
+                <li >Adrian Cardin</li>
+                
+            </div>
+            <div class="footer3">
+                <h2 class="home"><a href="patrocinadores.html" style="text-decoration:none">Patrocinadores</a></h2><br></br>
+                <h2 class="home"><a href="../index.html" style="text-decoration:none">Pagina principal</a></h2>
+            </div>
+            
+            
+        </footer>
+    </body>
+</html>
